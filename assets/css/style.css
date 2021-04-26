@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.subscribe-container {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-container a, .subscribe-container a:hover {
+    color: white;
+    padding: 4px
+}
+
+.subscribe-container a span {
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding: 10px
+}
+
+.mif-twitter {
+    background-color: #1da1f2;
+}
+.mif-facebook {
+    background-color: #3b5998;
+    padding: 10px 15px !important;
+}
+.mif-youtube {
+    background-color: #af2b26;
+}
+.mif-linkedin {
+    background-color: #71c5ef;
+}
+.mif-vimeo {
+    background-color: #33454E;
+}
+.mif-pinterest {
+    background-color: #cb2027;
+}
+
+.tab-pane ul li a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.tab-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.tab-text {
+    height: 60px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.tab-text div:first-child {
+    font-weight: 700;
+}
+
